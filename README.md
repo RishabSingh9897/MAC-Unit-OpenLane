@@ -166,6 +166,18 @@ Screenshots from each stage are available in the `openlane/screenshots/` directo
 ---
 
 # Results
+The final implementation successfully completed the RTL-to-GDSII flow using the Sky130 PDK. Functional verification was performed in Cadence, followed by physical implementation in OpenLane.
+
+| Metric | Value |
+|--------|------:|
+| Standard Cells | **268** |
+| Number of Wires | **257** |
+| Chip Area | **2882.7648 µm²** |
+| Worst Setup Slack | **+6.67 ns** |
+| Worst Hold Slack | **+0.29 ns** |
+| Total Negative Slack (TNS) | **0.00 ns** |
+| Worst Negative Slack (WNS) | **0.00 ns** |
+
 
 | Stage | Status |
 |--------|--------|
