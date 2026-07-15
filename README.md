@@ -22,7 +22,6 @@
 - [Results](#results)
 - [Tools Used](#tools-used)
 - [Future Improvements](#future-improvements)
-- [Author](#author)
 
 ---
 
