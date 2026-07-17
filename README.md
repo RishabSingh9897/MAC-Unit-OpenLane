@@ -139,7 +139,6 @@ The verification process included:
 
 Waveform screenshots are available in the `simulation/waveforms/` directory.
 
-> **Cadence waveform images will be added here.**
 
 ---
 
