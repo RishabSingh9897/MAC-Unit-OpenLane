@@ -105,7 +105,7 @@ The design consists of the following major components:
 - Control Logic
 - Output Register
 
-<img src="screenshots/mac_architecture.jpg" width="450">
+<img src="Screenshots/mac_architecture.jpg" width="450">
 
 ---
 
