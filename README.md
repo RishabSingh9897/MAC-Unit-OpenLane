@@ -105,7 +105,7 @@ The design consists of the following major components:
 - Control Logic
 - Output Register
 
-> **Architecture diagram will be added here.**
+<img src="screenshots/mac_architecture.jpg" width="450">
 
 ---
 
@@ -241,7 +241,7 @@ Modules include:
 The final routed layout generated using OpenLane.
 
 <p align="center">
-<img src="screenshots/mac_layout_rishab.jpg" width="700">
+<img src="Screenshots/mac_layout_rishab.jpg" width="700">
 </p>
 
 
