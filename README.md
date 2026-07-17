@@ -262,21 +262,6 @@ The final implementation successfully completed the RTL-to-GDSII flow using the 
 | Worst Negative Slack (WNS) | **0.00 ns** |
 
 
-| Stage | Status |
-|--------|--------|
-| RTL Design | ✅ Completed |
-| Functional Verification | ✅ Passed |
-| Logic Synthesis | ✅ Completed |
-| Floorplanning | ✅ Completed |
-| Placement | ✅ Completed |
-| CTS | ✅ Completed |
-| Routing | ✅ Completed |
-| Timing Analysis | ✅ Passed |
-| DRC Verification | ✅ Completed |
-| GDSII Generation | ✅ Successful |
-
----
-
 # Tools Used
 
 | Tool | Purpose |
