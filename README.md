@@ -290,15 +290,3 @@ The final implementation successfully completed the RTL-to-GDSII flow using the 
 | Sky130 PDK | Standard Cell Library |
 
 ---
-
-# Future Improvements
-
-- Parameterizable MAC architecture
-- Signed arithmetic support
-- Booth Multiplier implementation
-- Wallace Tree Multiplier
-- Pipelined MAC architecture
-- Power analysis and optimization
-- Formal verification
-
----
