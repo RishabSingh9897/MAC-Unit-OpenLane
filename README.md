@@ -162,6 +162,90 @@ The physical implementation consists of the following stages:
 
 Screenshots from each stage are available in the `openlane/screenshots/` directory.
 
+### 1. OpenLane Flow Initialization
+
+The OpenLane flow was configured using the Sky130A PDK and executed using the project configuration file.
+
+<p align="center">
+<img src="images/Layout_cmd.jpg" width="900">
+</p>
+
+### 2. Floorplanning
+
+During floorplanning, the die size, core area, IO placement, tap insertion, PDN generation, and initial placement preparation were completed.
+
+<p align="center">
+<img src="images/Layout_terminal.jpg" width="900">
+</p>
+
+### 3. Placement and Clock Tree Synthesis
+
+Standard cells were placed, timing optimization was performed, and Clock Tree Synthesis (CTS) generated a balanced clock network.
+
+<p align="center">
+<img src="images/Layout_terminal_next.jpg" width="900">
+</p>
+
+
+### 4. Global and Detailed Routing
+
+Global routing, detailed routing, antenna repair, and post-routing timing optimization were successfully completed.
+
+<p align="center">
+<img src="images/Layout_terminal_next2.jpg" width="900">
+</p>
+
+### 5. Signoff
+
+The final design successfully completed:
+
+- Multi-corner STA
+- SPEF Extraction
+- DRC
+- LVS
+- ERC
+- GDSII Generation
+
+No setup violations were reported, and no hold violations were observed at the typical process corner.
+
+<p align="center">
+<img src="images/Layout_terminal_next3.jpg" width="900">
+</p>
+
+# Functional Verification
+
+The MAC Unit functionality was verified using a Verilog testbench and simulated before physical implementation.
+
+<p align="center">
+<img src="images/waveform_mac.jpg" width="900">
+</p>
+
+# RTL Source Files
+
+The RTL implementation is divided into multiple modules.
+
+<p align="center">
+<img src="images/rishab_tree.jpg" width="450">
+</p>
+
+Modules include:
+
+- mac.v
+- multiplier.v
+- accumulator.v
+- cla.v
+- mac_array.v
+
+# Final GDSII Layout
+
+The final routed layout generated using OpenLane.
+
+<p align="center">
+<img src="images/mac_layout_rishab.jpg" width="700">
+</p>
+
+
+
 ---
 
 # Results
